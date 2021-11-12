@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@font-face {
+  font-family: "patterns__dotsregular";
+  src: url("~assets/fonts/pattd___-webfont.woff2") format("woff2"),
+    url("~assets/fonts/pattd___-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #f8f8f8;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
+  min-height: 100%;
+}
+
+.box-content {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  background-color: #fff;
+  padding: 1rem;
+  width: 100%;
+
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px;
+  }
+  }
+
+h3.box-content {
+  margin-bottom: 0;
+}
+
+section {
+  margin-top: 10px;
+}

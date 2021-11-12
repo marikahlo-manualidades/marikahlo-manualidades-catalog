@@ -1,0 +1,38 @@
+[
+  {
+    "titulo": "Chaveiro Florzinha",
+    "descricao": "",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro2.jpg",
+    "preco": ""
+  },
+  {
+    "titulo": "Chaveiro Letra",
+    "descricao": "Fazemos a letra conforme a escolha.",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro1.jpg",
+    "preco": ""
+  },
+  {
+    "titulo": "Chaveiro Pipa",
+    "descricao": "",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro3.jpg",
+    "preco": ""
+  },
+  {
+    "titulo": "Chaveiros Coruja e Lua",
+    "descricao": "",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro6.jpg",
+    "preco": ""
+  },
+  {
+    "titulo": "Chaveiros Monstrinho do Espaço e Foguete",
+    "descricao": "",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro7.jpg",
+    "preco": ""
+  },
+  {
+    "titulo": "Chaveiro Unicórnio",
+    "descricao": "",
+    "imagem": "_nuxt/assets/image/produtos/chaveiros/chaveiro4.jpg",
+    "preco": ""
+  }
+]
