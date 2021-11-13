@@ -39,6 +39,38 @@ export const livroAtivDiv2 = [
 
 ]
 
+export const livroAtivDiv3 = [
+
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais-video03.mp4'),
+        poster: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais-video-poster03.jpg')
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais34.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais35.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais36.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais37.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais38.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais39.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais40.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/livros-sensoriais/livros-sensoriais41.jpg'),
+    }
+]
+
 export const livroUrso = [
 
     {

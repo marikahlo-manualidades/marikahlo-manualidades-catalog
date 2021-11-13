@@ -34,6 +34,22 @@
     </PriceSet>
     <CatalogMasonry :produtos="livroAtivDiv2" />
     <PriceSet>
+      <h5 class="box-content text-center">TEMA ATIVIDADES DIVERSAS</h5>
+      <p class="box-content">
+        <IconArrowRight /><b>Valor: R$75,00 - Com 4 páginas</b>
+      </p>
+      <div class="box-content">
+         <ul>
+          <li>- Página 01 –  Urso que esconde os olhos</li>
+          <li>- Página 02 – Ovo com pintinho dentro</li>
+          <li>- Página 03 – Boneca(2D) e cama</li>
+          <li>- Página 04 – Formas e encaixes</li>
+          <li>- Dimensões: 21cm x 21cm</li>
+        </ul>
+      </div>
+    </PriceSet>
+    <CatalogMasonry :produtos="livroAtivDiv3" />
+    <PriceSet>
       <h5 class="box-content text-center">TEMA URSO</h5>
       <p class="box-content">
         <IconArrowRight /><b>Valor: R$75,00 - Com 4 páginas</b>
@@ -78,6 +94,7 @@ import {
   livroUrso,
   livroAtivDiv,
   livroAtivDiv2,
+  livroAtivDiv3,
 } from "@/assets/js/livros-sensoriais.js";
 
 export default {
@@ -86,6 +103,7 @@ export default {
     return {
       livroAtivDiv: livroAtivDiv,
       livroAtivDiv2: livroAtivDiv2,
+      livroAtivDiv3: livroAtivDiv3,
       livroUrso: livroUrso,
       livroRotina: livroRotina,
     };

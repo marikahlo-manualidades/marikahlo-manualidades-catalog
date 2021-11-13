@@ -14,27 +14,55 @@
     </PriceSet>
     <CatalogMasonry :produtos="kitFesta" />
     <PriceSet>
-      <h5 class="box-content text-center">ITENS FESTA</h5>
+      <h5 class="box-content text-center">PRATO COM UMA FATIA DE BOLO</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        <b>Valor: R$20,00</b>
+      </p>
     </PriceSet>
-    <CatalogMasonry :produtos="itensFesta" tipo="cards" />
+    <CatalogMasonry :produtos="fatiaBolo" />
+    <PriceSet>
+      <h5 class="box-content text-center">PRATO</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        <b>Valor Unitário: R$6,00</b><br />
+        <IconArrowRight />Prato feito com estrutura em papelão e recoberto com feltro - Dimensão: 19cm de diâmetro
+      </p>
+    </PriceSet>
+    <CatalogMasonry :produtos="prato" />
+    <PriceSet>
+      <h5 class="box-content text-center">CANECA SUCO</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        <b>Valor Unitário: R$12,00</b>
+      </p>
+    </PriceSet>
+    <CatalogMasonry :produtos="canecaSuco" />
+        <PriceSet>
+      <h5 class="box-content text-center">KIT COM GARFO, FACA E COLHER</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        <b>Valor: R$15,00</b>
+      </p>
+    </PriceSet>
+    <CatalogMasonry :produtos="talheres" />
+
   </section>
 </template>
 
 <script>
-import { kitFesta, itensFesta } from "@/assets/js/kit-festa.js";
+import { kitFesta, fatiaBolo, prato, canecaSuco, talheres } from "@/assets/js/kit-festa.js";
 export default {
   name: "KitFesta",
   data() {
     return {
-      kitFesta: kitFesta,
-      itensFesta: itensFesta,
+      kitFesta,
+      fatiaBolo,
+      canecaSuco,
+      prato,
+      talheres
     };
   },
 };
 </script>
 
-<style scoped>
-.kit-festa h5 {
-  margin-bottom: 10px;
-}
-</style>

@@ -54,10 +54,10 @@ export default {
     openLightboxOnSlide(number) {
       this.sourceIndex = number;
       this.toggler = !this.toggler;
-      document.querySelectorAll('video').forEach(video => {
-        console.log(video)
-        video.pause()})
+      // document.querySelectorAll('video').forEach(video => {
+      //   video.pause()})
     },
+
   },
 };
 </script>
