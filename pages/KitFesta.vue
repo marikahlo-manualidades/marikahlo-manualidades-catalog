@@ -4,8 +4,11 @@
     <PriceSet>
       <p class="box-content">
         <IconArrowRight/>
+        <b>Valor: R$140,00</b>
+        <br />
+        <IconArrowRight/>
         Kit Bolo Com 6 Fatias, 2 Canecas (Com Suco de Laranja ou de Uva), 2
-        Garfos, 2 Facas, 2 Pratos e Vela - <b>Valor: R$140,00</b>
+        Garfos, 2 Facas, 2 Pratos e Vela
         <br />
         <IconArrowRight/>
         Obs: o bolo pode ser feito com sabores e decorações diferentes, conforme
@@ -17,7 +20,7 @@
       <h5 class="box-content text-center">PRATO COM UMA FATIA DE BOLO</h5>
       <p class="box-content">
         <IconArrowRight />
-        <b>Valor: R$20,00</b>
+        <b>Valor Unitário: R$20,00</b>
       </p>
     </PriceSet>
     <CatalogMasonry :produtos="fatiaBolo" />
