@@ -7,14 +7,14 @@
     <b-nav vertical class="w-100">
           <b-nav vertical class="w-100">
       <li><NuxtLink @click.native="hideMenu" to="/">Início</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/Calendarios">Calendários</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/Feirinha">Feirinha</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/Chaveiros">Chaveiros</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/KitFesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/Mobiles">Móbiles</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/LivrosSensoriais">Livros Sensoriais</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/EnfeitesNatalinos">Enfeites Natalinos</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/BrinquedosDiversos">Brinquedos Diversos</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/calendarios">Calendários</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/feirinha">Feirinha</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/chaveiros">Chaveiros</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/kitfesta">Kit Festa</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/mobiles">Móbiles</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
     </b-nav>
     </b-nav>
   </aside>

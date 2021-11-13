@@ -4,14 +4,14 @@
     <hr />
     <b-nav vertical class="w-100">
       <li><NuxtLink to="/">Início</NuxtLink></li>
-      <li><NuxtLink to="/Calendarios">Calendários</NuxtLink></li>
-      <li><NuxtLink to="/Feirinha" >Feirinha</NuxtLink></li>
-      <li><NuxtLink to="/Chaveiros">Chaveiros</NuxtLink></li>
-      <li><NuxtLink to="/KitFesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink to="/Mobiles">Móbiles</NuxtLink></li>
-      <li><NuxtLink to="/LivrosSensoriais">Livros Sensoriais</NuxtLink></li>
-      <li><NuxtLink to="/EnfeitesNatalinos">Enfeites Natalinos</NuxtLink></li>
-      <li><NuxtLink to="/BrinquedosDiversos">Brinquedos Diversos</NuxtLink></li>
+      <li><NuxtLink to="/calendarios">Calendários</NuxtLink></li>
+      <li><NuxtLink to="/feirinha" >Feirinha</NuxtLink></li>
+      <li><NuxtLink to="/chaveiros">Chaveiros</NuxtLink></li>
+      <li><NuxtLink to="/kitfesta">Kit Festa</NuxtLink></li>
+      <li><NuxtLink to="/mobiles">Móbiles</NuxtLink></li>
+      <li><NuxtLink to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
+      <li><NuxtLink to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
+      <li><NuxtLink to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
     </b-nav>
   </div>
 </template>
