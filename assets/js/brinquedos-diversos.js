@@ -117,3 +117,13 @@ export const sanduiche = [
         imagem: require('~/assets/image/produtos/brinquedos-diversos/sanduiche02.jpg'),
     },
 ]
+
+export const bolinhas = [
+
+    {
+        imagem: require('~/assets/image/produtos/brinquedos-diversos/bolinhas01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/brinquedos-diversos/bolinhas02.jpg'),
+    },
+]

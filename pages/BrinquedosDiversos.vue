@@ -29,6 +29,15 @@
     </PriceSet>
     <CatalogMasonry :produtos="jogovelha" />
     <PriceSet>
+      <h5 class="box-content text-center">BOLINHA DE FELTRO</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        <b>Valor unitário: R$15,00</b><br />
+        <IconArrowRight />Bolinha de feltro colorida com guizo dentro - Dimensão aprox: 10cm
+      </p>
+    </PriceSet>
+    <CatalogMasonry :produtos="bolinhas" />
+    <PriceSet>
       <h5 class="box-content text-center">JOGO DE ENCAIXE COM PINO CENTRAL</h5>
       <p class="box-content">
         <IconArrowRight />
@@ -115,25 +124,26 @@ import {
   abaco,
   portacopos,
   panela,
-  sanduiche
+  sanduiche,
+  bolinhas
 
 } from "@/assets/js/brinquedos-diversos.js";
 export default {
   name: "BrinquedosDiversos",
   data() {
     return {
-      dedoches: dedoches,
-      jogomemoria: jogomemoria,
-      jogovelha: jogovelha,
-      jogoencaixe: jogoencaixe,
-      peixinhos: peixinhos,
-      galinhapintadinha: galinhapintadinha,
-      almofadaafrica: almofadaafrica,
-      abaco: abaco,
-      portacopos: portacopos,
-      panela: panela,
-      sanduiche: sanduiche
-
+      dedoches,
+      jogomemoria,
+      jogovelha,
+      jogoencaixe,
+      peixinhos,
+      galinhapintadinha,
+      almofadaafrica,
+      abaco,
+      portacopos,
+      panela,
+      sanduiche,
+      bolinhas
     };
   },
 };
