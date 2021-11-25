@@ -45,7 +45,7 @@ div.box-content {
   content: '';
 }
 .loader:after {
-  background: #f8f8f8;
+  background: #ffffff;
   width: 75%;
   height: 75%;
   border-radius: 50%;
@@ -77,5 +77,4 @@ div.box-content {
     transform: rotate(360deg);
   }
 }
-
 </style>
