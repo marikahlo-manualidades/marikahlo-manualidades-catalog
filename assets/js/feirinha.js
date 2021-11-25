@@ -73,13 +73,13 @@ export const feirinha = [
         imagem: require('~/assets/image/produtos/feirinha/feirinha25.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha24.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/feirinha21.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha23.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha21.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/feirinha24.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha27.jpg'),
@@ -112,11 +112,23 @@ export const feirinha = [
         imagem: require('~/assets/image/produtos/feirinha/feirinha36.jpg'),
     },
     {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha40.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha41.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha42.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha43.jpg'),
+    },
+    {
         imagem: require('~/assets/image/produtos/feirinha/feirinha37.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha38.jpg'),
-    }
+    },
 
 ]
 export const itensFeirinha = [

@@ -87,7 +87,7 @@ span {
 svg {
   position: absolute;
   margin-left: 1.5rem;
-  background-color: #a92d37;
+  background-color: rgb(169, 45, 55);
   color: #fff;
   padding: 5px;
   border-radius: 10px;
