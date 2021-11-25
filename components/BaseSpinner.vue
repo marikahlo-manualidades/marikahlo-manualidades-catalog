@@ -1,5 +1,7 @@
 <template>
-  <div class="loader"></div>
+  <div class="box-content">
+    <div class="loader"></div>
+  </div>
 </template>
 
 <script>
@@ -8,7 +10,10 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+div.box-content {
+  margin-top: 10px;
+}
 .loader {
   font-size: 10px;
   margin: 50px auto;

@@ -11,7 +11,7 @@
     </b-container>
     <b-container class="main-container" v-else>
       <b-row>
-        <BaseSpinner/>
+        <b-col col lg="12"><BaseSpinner/></b-col>       
       </b-row>
     </b-container>
     <TheFooter />
