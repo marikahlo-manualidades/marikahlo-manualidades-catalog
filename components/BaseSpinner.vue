@@ -1,6 +1,7 @@
 <template>
   <div class="box-content">
     <div class="loader"></div>
+    <p class="text-center">CARREGANDO...</p>
   </div>
 </template>
 

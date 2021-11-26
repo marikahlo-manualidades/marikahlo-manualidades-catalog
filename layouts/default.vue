@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column main-wrapper">
-    <TheHeader @mobile-view-change="updateMobileView($event)" />
+    <TheHeader @mobile-view-change="updateMobileView($event)" :scY="scY"/>
     <b-container
       class="main-container"
       :class="{ 'fixed-header-margin': mobileView }"

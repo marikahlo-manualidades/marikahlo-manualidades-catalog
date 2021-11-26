@@ -15,13 +15,15 @@
         <NuxtLink
           to="/"
           class="d-flex flex-column align-items-center justify-content-center"
+          :class="{'mb-2': scY > 299}"
         >
           <b-img
             v-bind="mainProps"
             src="~/assets/image/mari-kahlo-logo.png"
             alt="MARI KAHLO LOGO"
           ></b-img>
-          <span> MARI KAHLO </span></NuxtLink
+          <span  v-if="scY < 300"> MARI KAHLO </span>
+          </NuxtLink
         >
       </div>
     </div>
@@ -36,6 +38,7 @@ export default {
     BIcon,
     BIconList,
   },
+  props: ['scY'],
   data() {
     return {
       mainProps: { width: 178, height: 80 },
