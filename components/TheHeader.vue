@@ -8,7 +8,7 @@
         @click="showNavChange"
       ></b-icon>
       <transition name="fade">
-        <NavBarMobile v-if="showNav" @hide-menu="showNav = false" />
+        <NavBarMobile v-if="showNav" @hide-menu="showNav = false" :scY="scY"/>
       </transition>
 
       <div class="logo-wrapper w-100 d-flex justify-content-center align-items-center">

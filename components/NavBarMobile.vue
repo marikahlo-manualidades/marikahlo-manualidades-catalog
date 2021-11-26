@@ -1,5 +1,5 @@
 <template>
-  <aside v-on-clickaway="away">
+  <aside v-on-clickaway="away" :class="{'aside-up': scY > 300}">
     <span class="categories d-inline-block w-100 text-center font-weight-bold"
       >CATEGORIAS</span
     >
@@ -24,6 +24,7 @@
 import { mixin as clickaway } from 'vue-clickaway';
 export default {
   name: "NavBarMobile",
+  props: ['scY'],
   mixins: [ clickaway ],
   emits: ['hideMenu'],
   methods: {
@@ -47,6 +48,10 @@ aside {
   z-index: 1000;
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.8);
   background-color: #fff;
+}
+.aside-up {
+  top: 60px;
+  transform: translateY(25px);
 }
 aside span {
   font-size: 1.5rem;
