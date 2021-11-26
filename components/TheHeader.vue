@@ -1,5 +1,5 @@
 <template>
-  <header class="header">
+  <header class="header" :class="{'fixed-header': mobileView}">
     <div class="d-flex align-items-center">
       <b-icon
         v-if="mobileView"
@@ -72,6 +72,8 @@ header {
   background: -webkit-linear-gradient(to right, #7a8f10, #fff, #a92d37);
   background: linear-gradient(to right, #7a8f10, rgb(255, 255, 255), #a92d37);
   border-bottom: 1px solid rgba(50, 50, 50, 0.1);
+  box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 1em rgb(0 0 0 / 30%);
 }
 header a {
   color: #000;
@@ -96,10 +98,12 @@ svg {
 svg:hover {
   cursor: pointer;
 }
-/* .logo-wrapper {
-  width: 100%;
-
-} */
+.fixed-header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  min-width: 100vw;
+}
 .logo-wrapper img {
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.9));
 }
