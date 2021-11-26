@@ -15,7 +15,7 @@
         <NuxtLink
           to="/"
           class="d-flex flex-column align-items-center justify-content-center"
-          :class="{'mb-2': scY > 299}"
+          :class="{'mb-1': scY > 299}"
         >
           <b-img
             v-bind="mainProps"
