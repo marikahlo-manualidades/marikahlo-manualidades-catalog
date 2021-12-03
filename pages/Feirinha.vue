@@ -33,8 +33,15 @@
     <CatalogMasonry :produtos="itensFeirinha" tipo="cards"/>
     <PriceSet>
       <h5 class="box-content text-center">ECOBAGS</h5>
+      <p class="box-content">
+        <IconArrowRight />
+        Tamanho: Largura=24cm x Altura=30cm. <b>Valor: R$15,00</b><br />
+        <IconArrowRight />
+        Tamanho: Largura=30cm x Altura=35cm. <b>Valor: R$20,00</b><br />
+        <IconArrowRight />Pintada à Mão, Em algodão cru, com alça colorida (vermelha/verde/laranja) para guardar as frutas/verduras/legumes.
+      </p>
     </PriceSet>
-    <CatalogMasonry :produtos="ecobag" tipo="cards"/>
+    <CatalogMasonry :produtos="ecobag" />
   </section>
 </template>
 

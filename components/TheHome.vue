@@ -78,7 +78,7 @@
         class="d-flex justify-content-start align-items-center"
       >
         <IconArrowRight />
-        Aceitamos cartão de crédito para compras acima de &nbsp;<b>R$ 250,00</b>
+        <span>Aceitamos cartão de crédito para compras acima de <b>R$250,00</b></span> 
       </b-list-group-item>
       <b-list-group-item
         class="d-flex justify-content-start align-items-center"
