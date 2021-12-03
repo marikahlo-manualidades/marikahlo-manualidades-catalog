@@ -37,6 +37,12 @@ export const feirinha = [
         imagem: require('~/assets/image/produtos/feirinha/feirinha39.jpg'),
     },
     {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha44.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/feirinha45.jpg'),
+    },
+    {
         imagem: require('~/assets/image/produtos/feirinha/feirinha12.jpg'),
     },
     {

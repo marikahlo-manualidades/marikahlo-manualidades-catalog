@@ -78,6 +78,12 @@
         class="d-flex justify-content-start align-items-center"
       >
         <IconArrowRight />
+        Aceitamos cartão de crédito para compras acima de &nbsp;<b>R$ 250,00</b>
+      </b-list-group-item>
+      <b-list-group-item
+        class="d-flex justify-content-start align-items-center"
+      >
+        <IconArrowRight />
         <b>Para efetivar seu pedido ou personalizá-lo entre em contato com a
         Mari pelo (41) 9 9693-5177.</b>
         <a
