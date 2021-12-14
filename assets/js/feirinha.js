@@ -158,7 +158,7 @@ export const ecobag = [
         // titulo: 'Ecobag É Dia de Feirinha',
         // descricao: 'Pintada à Mão, Em algodão cru, com alça colorida (vermelha ou verde) para guardar as frutas/verduras/legumes. Tamanho: Largura=24cm x Altura=30cm.',
         // preco: 'R$15,00',
-        imagem: require('~/assets/image/produtos/feirinha/ecobag03.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/ecobag01.jpg'),
     },
     {
         // titulo: 'Ecobag É Dia de Feira',
@@ -167,7 +167,10 @@ export const ecobag = [
         imagem: require('~/assets/image/produtos/feirinha/ecobag02.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/ecobag01.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/ecobag03.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/ecobag04.jpg'),
     },
 
 ]

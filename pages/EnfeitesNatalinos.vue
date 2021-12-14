@@ -10,12 +10,11 @@
     </PriceSet>
     <CatalogMasonry :produtos="portaTalheres" />
     <PriceSet>
-      <h5 class="box-content text-center">GUIRLANDA</h5>
-      <p class="box-content">
-       <IconArrowRight />Guirlanda Família Personalizada - <b>Valor: R$150,00</b>
-      </p>
+      <h5 class="box-content text-center">GUIRLANDAS</h5>
+      
     </PriceSet>
-    <CatalogMasonry :produtos="guirlanda" />
+    <CatalogMasonry :produtos="guirlanda" tipo="cards"/>
+    
   </section>
 </template>
 
@@ -32,3 +31,9 @@ export default {
 };
 </script>
 
+<style scoped>
+section > div:nth-child(4) > h5 {
+  margin-bottom: 10px;
+}
+
+</style>

@@ -25,9 +25,18 @@ export const portaTalheres = [
 
 ]
 export const guirlanda = [
-
     {
+        titulo: 'Guirlanda Família Personalizada',
         imagem: require('~/assets/image/produtos/enfeites-natalinos/guirlanda01.jpg'),
+        descricao: '',
+        preco: 'Valor: R$150,00'
     },
+    {
+        titulo: 'Guirlanda Feliz Natal',
+        imagem: require('~/assets/image/produtos/enfeites-natalinos/guirlanda02.jpg'),
+        descricao: 'Diâmetro: 30cm',
+        preco: 'Valor: R$160,00'
+    },
+
 ]
 
