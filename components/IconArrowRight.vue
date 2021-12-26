@@ -1,7 +1,6 @@
 <template>
   <b-icon
     icon="arrow-right-circle-fill"
-    animation="cylon"
     class="mr-3"
   ></b-icon>
 </template>

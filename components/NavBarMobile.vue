@@ -41,7 +41,7 @@ export default {
 <style scoped>
 aside {
   position: absolute;
-  top: 100px;
+  top: 92px;
   transform: translateY(25px);
   width: 80%;
   max-width: 400px;

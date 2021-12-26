@@ -20,8 +20,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: -webkit-linear-gradient(to right, #7a8f10, #fff, #a92d37);
-  background: linear-gradient(to right, #7a8f10, #fff, #a92d37);
+  background: -webkit-linear-gradient(to right, #a92d37, #fff, #7a8f10);
   background: linear-gradient(to right, #a92d37, #fff, #7a8f10);
   margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
