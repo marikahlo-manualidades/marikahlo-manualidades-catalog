@@ -22,7 +22,7 @@
             src="~/assets/image/mari-kahlo-logo.png"
             alt="MARI KAHLO LOGO"
           ></b-img>
-          <span  v-if="scY < 300"> MARI KAHLO </span>
+          <span  v-if="scY < 300">mari kahlo</span>
           </NuxtLink
         >
       </div>
@@ -71,23 +71,19 @@ export default {
 <style scoped>
 header {
   margin: 0;
-  /* margin-bottom: 1rem; */
   background: -webkit-linear-gradient(to right, #7a8f10, #fff, #a92d37);
   background: linear-gradient(to right, #7a8f10, rgb(255, 255, 255), #a92d37);
-  border-bottom: 1px solid rgba(50, 50, 50, 0.1);
-  box-shadow: 0 0.2em 1em rgba(0, 0, 0, 0.6);
-  box-shadow: 0 0 1em rgb(0 0 0 / 30%);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 header a {
   color: #000;
   text-decoration: none;
 }
 span {
-  font-family: "patterns__dotsregular";
-  font-size: 1.5rem;
+  font-size: 1.9rem;
+  letter-spacing: 0.1rem;
   font-weight: 500;
-  margin-top: 8px;
-  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));
+  margin: -5px;
 }
 svg {
   position: absolute;
@@ -107,6 +103,7 @@ svg:hover {
   z-index: 9999;
   min-width: 100vw;
 }
+
 .logo-wrapper img {
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.9));
 }

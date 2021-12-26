@@ -70,7 +70,7 @@ export default {
   height: 100vh;
 }
 .main-container {
-  flex-basis: 80%;
+  flex: 1;
 }
 .fixed-header-margin {
   margin-top: 125px;
