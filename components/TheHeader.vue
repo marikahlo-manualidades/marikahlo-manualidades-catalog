@@ -1,30 +1,49 @@
 <template>
-  <header class="header" :class="{'fixed-header': mobileView}">
+  <header
+    class="header"
+    :class="{ 'fixed-header': mobileView }"
+    :style="
+      scY < 300
+        ? 'height: 117px; transition-delay: 0s;'
+        : 'height: 85px; transition-delay: 0.2s;'
+    "
+  >
     <div class="d-flex align-items-center">
-      <b-icon
-        v-if="mobileView"
-        icon="list"
-        font-scale="2.5"
-        @click="showNavChange"
-      ></b-icon>
       <transition name="fade">
-        <NavBarMobile v-if="showNav" @hide-menu="showNav = false" :scY="scY"/>
+        <b-icon
+          v-if="mobileView"
+          icon="list"
+          font-scale="2.5"
+          @click="showNavChange"
+        ></b-icon>
+      </transition>
+      <transition name="fade">
+        <NavBarMobile v-if="showNav" @hide-menu="showNav = false" :scY="scY" />
       </transition>
 
-      <div class="logo-wrapper w-100 d-flex justify-content-center align-items-center">
+      <div
+        class="
+          logo-wrapper
+          w-100
+          d-flex
+          justify-content-center
+          align-items-center
+        "
+      >
         <NuxtLink
           to="/"
           class="d-flex flex-column align-items-center justify-content-center"
-          :class="{'mb-1': scY > 299}"
+          :class="{ 'mb-1': scY > 299 }"
         >
           <b-img
             v-bind="mainProps"
             src="~/assets/image/mari-kahlo-logo.png"
             alt="MARI KAHLO LOGO"
           ></b-img>
-          <span  v-if="scY < 300">mari kahlo</span>
-          </NuxtLink
-        >
+          <transition name="span-fade">
+            <span v-if="scY < 300">mari kahlo</span>
+          </transition>
+        </NuxtLink>
       </div>
     </div>
   </header>
@@ -33,12 +52,12 @@
 <script>
 import { BIcon, BIconList } from "bootstrap-vue";
 export default {
-  name: 'TheHeader',
+  name: "TheHeader",
   components: {
     BIcon,
     BIconList,
   },
-  props: ['scY'],
+  props: ["scY"],
   data() {
     return {
       mainProps: { width: 178, height: 80 },
@@ -74,6 +93,8 @@ header {
   background: -webkit-linear-gradient(to right, #7a8f10, #fff, #a92d37);
   background: linear-gradient(to right, #7a8f10, rgb(255, 255, 255), #a92d37);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  transition: height 0.5s;
+  transition-delay: 0.5s;
 }
 header a {
   color: #212529;
@@ -108,12 +129,24 @@ svg:hover {
   filter: drop-shadow(0px 0px 3px rgb(0, 0, 0, 0.9));
 }
 
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s ease;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
-
+.span-fade-enter-active {
+  transition: opacity 0.5s ease;
+  transition-delay: 0.2s;
+}
+.span-fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+.span-fade-enter,
+.span-fade-leave-to {
+  opacity: 0;
+}
 </style>

@@ -37,3 +37,11 @@ h3.box-content {
 section {
   margin-top: 10px;
 }
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.3s;
+}
+.page-enter, .page-leave-to {
+  opacity: 0;
+}
