@@ -76,7 +76,7 @@ header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 header a {
-  color: #000;
+  color: #212529;
   text-decoration: none;
 }
 span {
