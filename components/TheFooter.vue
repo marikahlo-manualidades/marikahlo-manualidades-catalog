@@ -20,8 +20,8 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: -webkit-linear-gradient(to right, #a92d37, #fff, #7a8f10);
-  background: linear-gradient(to right, #a92d37, #fff, #7a8f10);
+  background: -webkit-linear-gradient(to right, #ce7e86, #fff, #acb96b);
+  background: linear-gradient(to right, #ce7e86, rgb(255, 255, 255), #acb96b);
   margin-top: 1rem;
   border-top: 1px solid rgba(0, 0, 0, 0.125);
 }

@@ -15,6 +15,11 @@
           icon="list"
           font-scale="2.5"
           @click="showNavChange"
+          :style="
+            scY < 300
+              ? 'top: 38px;'
+              : 'top: 22px;'
+          "
         ></b-icon>
       </transition>
       <transition name="fade">
@@ -90,11 +95,10 @@ export default {
 <style scoped>
 header {
   margin: 0;
-  background: -webkit-linear-gradient(to right, #7a8f10, #fff, #a92d37);
-  background: linear-gradient(to right, #7a8f10, rgb(255, 255, 255), #a92d37);
+  background: -webkit-linear-gradient(to right, #acb96b, #fff, #ce7e86);
+  background: linear-gradient(to right, #acb96b, rgb(255, 255, 255), #ce7e86);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
-  transition: height 0.5s;
-  transition-delay: 0.5s;
+  transition: height 0.5s ease-in-out;
 }
 header a {
   color: #212529;
@@ -114,6 +118,7 @@ svg {
   padding: 5px;
   border-radius: 10px;
   box-shadow: 0 0 0.15em rgba(0, 0, 0, 0.8);
+  transition: top 0.5s linear;
 }
 svg:hover {
   cursor: pointer;
@@ -139,11 +144,11 @@ svg:hover {
 }
 
 .span-fade-enter-active {
-  transition: opacity 0.5s ease;
-  transition-delay: 0.2s;
+  transition: opacity 0.2s ease;
+  transition-delay: 0.3s;
 }
 .span-fade-leave-active {
-  transition: opacity 0.5s ease;
+  transition: opacity 0.3s ease;
 }
 .span-fade-enter,
 .span-fade-leave-to {
