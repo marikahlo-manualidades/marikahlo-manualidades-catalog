@@ -8,7 +8,10 @@
         ><br />
         <IconArrowRight />Você pode escolher 06 ou 12 itens da quitanda,
         mesclando entre frutas, verduras e legumes.<br />
-        <BIconArrowDownCircleFill class="icon-down" animation="throb"/><span class="click-text text-center">Clique no nome da fruta abaixo para ver em detalhe.</span><br />
+        <BIconArrowDownCircleFill class="icon-down" animation="throb" /><span
+          class="click-text text-center"
+          >Clique no nome da fruta abaixo para ver em detalhe.</span
+        ><br />
         <span class="verde m-3" @click="openLightboxOnSlide(0)">Abacate</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(1)">Abacaxi</span>
         <span class="laranja m-3" @click="openLightboxOnSlide(2)">Abóbora</span>
@@ -20,40 +23,38 @@
         <span class="verde m-3" @click="openLightboxOnSlide(10)">Brócolis</span>
         <span class="laranja m-3" @click="openLightboxOnSlide(11)">Cacau</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(13)">Caju</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(14)">Cana de Açúcar</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(15)">Carambola</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(16)">Cenoura</span>
+        <span class="verde m-3" @click="openLightboxOnSlide(14)"
+          >Cana de Açúcar</span
+        >
+        <span class="amarelo m-3" @click="openLightboxOnSlide(15)"
+          >Carambola</span
+        >
+        <span class="laranja m-3" @click="openLightboxOnSlide(16)"
+          >Cenoura</span
+        >
         <span class="marrom m-3" @click="openLightboxOnSlide(17)">Coco</span>
         <span class="verde m-3" @click="openLightboxOnSlide(19)">Kiwi</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(20)">Laranja</span>
+        <span class="laranja m-3" @click="openLightboxOnSlide(20)"
+          >Laranja</span
+        >
         <span class="vermelho m-3" @click="openLightboxOnSlide(21)">Maçã</span>
         <span class="laranja m-3" @click="openLightboxOnSlide(22)">Mamão</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(23)">Manga</span>
         <span class="verde m-3" @click="openLightboxOnSlide(24)">Melancia</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(25)">Milho</span>
-        <span class="vermelho m-3" >Morango</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(27)">Rabanete</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(28)">Tomate</span>
-        <span class="roxo m-3" @click="openLightboxOnSlide(29)">Uva</span>
-        <FsLightbox :toggler="toggler" :sourceIndex="sourceIndex" :sources="images" />
-        <!-- <span class="verde m-3">Abacate</span>
-        <span class="amarelo m-3">Abacaxi</span>
-        <span class="laranja m-3">Abóbora</span> <span class="verde m-3">Alface</span>
-        <span class="amarelo m-3">Banana</span><span class="marrom m-3">Batata</span>
-        <span class="roxo m-3">Berinjela</span>
-        <span class="roxo m-3">Beterraba</span>
-        <span class="verde m-3">Brócolis</span><span class="laranja m-3">Cacau</span>
-        <span class="amarelo m-3">Caju</span>
-        <span class="verde m-3">Cana de Açúcar</span>
-        <span class="amarelo m-3">Carambola</span>
-        <span class="laranja m-3">Cenoura</span> <span class="marrom m-3">Coco</span>
-        <span class="verde m-3">Kiwi</span> <span class="laranja m-3">Laranja</span>
-        <span class="vermelho m-3">Maçã</span> <span class="laranja m-3">Mamão</span>
-        <span class="amarelo m-3">Manga</span> <span class="verde m-3">Melancia</span>
-        <span class="amarelo m-3">Milho</span>
         <span class="vermelho m-3">Morango</span>
-        <span class="vermelho m-3">Rabanete</span>
-        <span class="vermelho m-3">Tomate</span><span class="roxo m-3">Uva</span> -->
+        <span class="vermelho m-3" @click="openLightboxOnSlide(27)"
+          >Rabanete</span
+        >
+        <span class="vermelho m-3" @click="openLightboxOnSlide(28)"
+          >Tomate</span
+        >
+        <span class="roxo m-3" @click="openLightboxOnSlide(29)">Uva</span>
+        <FsLightbox
+          :toggler="toggler"
+          :sourceIndex="sourceIndex"
+          :sources="images"
+        />
       </p>
     </PriceSet>
     <CatalogMasonry :produtos="feirinha" />
@@ -77,13 +78,18 @@
 </template>
 
 <script>
-import { feirinha, itensFeirinha, ecobag, fruits } from "@/assets/js/feirinha.js";
+import {
+  feirinha,
+  itensFeirinha,
+  ecobag,
+  fruits,
+} from "@/assets/js/feirinha.js";
 import FsLightbox from "fslightbox-vue";
 import { BIcon, BIconArrowDownCircleFill } from "bootstrap-vue";
 
 export default {
   name: "Feirinha",
-  components: { FsLightbox, BIcon, BIconArrowDownCircleFill, },
+  components: { FsLightbox, BIcon, BIconArrowDownCircleFill },
   data() {
     return {
       feirinha: feirinha,
@@ -92,7 +98,6 @@ export default {
       toggler: false,
       sourceIndex: 0,
       sources: this.images,
-      
     };
   },
   computed: {
@@ -105,7 +110,6 @@ export default {
       this.sourceIndex = number;
       this.toggler = !this.toggler;
     },
-
   },
 };
 </script>
