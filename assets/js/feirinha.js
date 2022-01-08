@@ -34,15 +34,6 @@ export const feirinha = [
         imagem: require('~/assets/image/produtos/feirinha/feirinha11.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha39.jpg'),
-    },
-    {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha44.jpg'),
-    },
-    {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha45.jpg'),
-    },
-    {
         imagem: require('~/assets/image/produtos/feirinha/feirinha12.jpg'),
     },
     {
@@ -60,83 +51,104 @@ export const feirinha = [
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha17.jpg'),
     },
+]
+
+export const fruits = [
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha18.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/abacate01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha19.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/abacaxi01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha20.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/abobora01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha22.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/alface01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/alface02.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/banana01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/banana02.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/batata01.jpg'),
     },
        {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha42.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/berinjela01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha26.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/beterraba01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha25.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/brocolis01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha23.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/cacau01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha21.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/cacau02.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha24.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/caju01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha27.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/cana01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha28.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/carambola01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha29.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/cenoura01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha30.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/coco01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha31.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/coco02.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha32.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/kiwi01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha33.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/laranja01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha34.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/maca01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha35.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/mamao01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha36.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/manga01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha40.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/melancia01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha41.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/milho01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha43.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/milho02.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha37.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/rabanete01.jpg'),
     },
     {
-        imagem: require('~/assets/image/produtos/feirinha/feirinha38.jpg'),
+        imagem: require('~/assets/image/produtos/feirinha/tomate01.jpg'),
     },
-
+    {
+        imagem: require('~/assets/image/produtos/feirinha/uva01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/feirinha/uva02.jpg'),
+    },
 ]
+
 export const itensFeirinha = [
     {
         titulo: 'Kit Ovos',
