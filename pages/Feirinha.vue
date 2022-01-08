@@ -19,7 +19,7 @@
         <span class="amarelo m-3" @click="openLightboxOnSlide(5)">Banana</span>
         <span class="marrom m-3" @click="openLightboxOnSlide(7)">Batata</span>
         <span class="roxo m-3" @click="openLightboxOnSlide(8)">Berinjela</span>
-        <span class="roxo m-3" @click="openLightboxOnSlide(9)">Beterraba</span>
+        <span class="vermelho m-3" @click="openLightboxOnSlide(9)">Beterraba</span>
         <span class="verde m-3" @click="openLightboxOnSlide(10)">Brócolis</span>
         <span class="laranja m-3" @click="openLightboxOnSlide(11)">Cacau</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(13)">Caju</span>
@@ -42,14 +42,14 @@
         <span class="amarelo m-3" @click="openLightboxOnSlide(23)">Manga</span>
         <span class="verde m-3" @click="openLightboxOnSlide(24)">Melancia</span>
         <span class="amarelo m-3" @click="openLightboxOnSlide(25)">Milho</span>
-        <span class="vermelho m-3">Morango</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(27)"
+        <span class="vermelho m-3" @click="openLightboxOnSlide(27)">Morango</span>
+        <span class="vermelho m-3" @click="openLightboxOnSlide(28)"
           >Rabanete</span
         >
-        <span class="vermelho m-3" @click="openLightboxOnSlide(28)"
+        <span class="vermelho m-3" @click="openLightboxOnSlide(29)"
           >Tomate</span
         >
-        <span class="roxo m-3" @click="openLightboxOnSlide(29)">Uva</span>
+        <span class="roxo m-3" @click="openLightboxOnSlide(30)">Uva</span>
         <FsLightbox
           :toggler="toggler"
           :sourceIndex="sourceIndex"

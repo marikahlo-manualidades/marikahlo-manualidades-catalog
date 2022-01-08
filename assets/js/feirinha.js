@@ -136,6 +136,9 @@ export const fruits = [
         imagem: require('~/assets/image/produtos/feirinha/milho02.jpg'),
     },
     {
+        imagem: require('~/assets/image/produtos/feirinha/morango01.jpg'),
+    },
+    {
         imagem: require('~/assets/image/produtos/feirinha/rabanete01.jpg'),
     },
     {
