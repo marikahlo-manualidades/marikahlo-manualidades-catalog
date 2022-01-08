@@ -55,96 +55,148 @@ export const feirinha = [
 
 export const fruits = [
     {
+        nome: 'Abacate',
+        cor: 'verde',        
         imagem: require('~/assets/image/produtos/feirinha/abacate01.jpg'),
     },
     {
+        nome: 'Abacaxi',
+        cor: 'amarelo',   
         imagem: require('~/assets/image/produtos/feirinha/abacaxi01.jpg'),
     },
     {
+        nome: 'Abóbora', 
+        cor: 'laranja',  
         imagem: require('~/assets/image/produtos/feirinha/abobora01.jpg'),
     },
     {
+        nome: 'Alface',   
+        cor: 'verde',
         imagem: require('~/assets/image/produtos/feirinha/alface01.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/alface02.jpg'),
     },
     {
+        nome: 'Banana',  
+        cor: 'amarelo', 
         imagem: require('~/assets/image/produtos/feirinha/banana01.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/banana02.jpg'),
     },
     {
+        nome: 'Batata', 
+        cor: 'marrom',  
         imagem: require('~/assets/image/produtos/feirinha/batata01.jpg'),
     },
-       {
+    {
+        nome: 'Berinjela', 
+        cor: 'roxo',  
         imagem: require('~/assets/image/produtos/feirinha/berinjela01.jpg'),
     },
     {
+        nome: 'Beterraba',   
+        cor: 'vermelho',
         imagem: require('~/assets/image/produtos/feirinha/beterraba01.jpg'),
     },
     {
+        nome: 'Brócolis',
+        cor: 'verde',   
         imagem: require('~/assets/image/produtos/feirinha/brocolis01.jpg'),
     },
     {
+        nome: 'Cacau',   
+        cor: 'laranja',
         imagem: require('~/assets/image/produtos/feirinha/cacau01.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/cacau02.jpg'),
     },
     {
+        nome: 'Caju',   
+        cor: 'amarelo',
         imagem: require('~/assets/image/produtos/feirinha/caju01.jpg'),
     },
     {
+        nome: 'Cana de Açúcar', 
+        cor: 'verde',  
         imagem: require('~/assets/image/produtos/feirinha/cana01.jpg'),
     },
     {
+        nome: 'Carambola', 
+        cor: 'amarelo',  
         imagem: require('~/assets/image/produtos/feirinha/carambola01.jpg'),
     },
     {
+        nome: 'Cenoura',  
+        cor: 'laranja', 
         imagem: require('~/assets/image/produtos/feirinha/cenoura01.jpg'),
     },
     {
+        nome: 'Coco',   
+        cor: 'marrom',
         imagem: require('~/assets/image/produtos/feirinha/coco01.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/coco02.jpg'),
     },
     {
+        nome: 'Kiwi', 
+        cor: 'verde',  
         imagem: require('~/assets/image/produtos/feirinha/kiwi01.jpg'),
     },
     {
+        nome: 'Laranja',   
+        cor: 'laranja',
         imagem: require('~/assets/image/produtos/feirinha/laranja01.jpg'),
     },
     {
+        nome: 'Maçã',  
+        cor: 'vermelho', 
         imagem: require('~/assets/image/produtos/feirinha/maca01.jpg'),
     },
     {
+        nome: 'Mamão',
+        cor: 'laranja',   
         imagem: require('~/assets/image/produtos/feirinha/mamao01.jpg'),
     },
     {
+        nome: 'Manga',   
+        cor: 'amarelo',
         imagem: require('~/assets/image/produtos/feirinha/manga01.jpg'),
     },
     {
+        nome: 'Melancia',  
+        cor: 'verde', 
         imagem: require('~/assets/image/produtos/feirinha/melancia01.jpg'),
     },
     {
+        nome: 'Milho', 
+        cor: 'amarelo',  
         imagem: require('~/assets/image/produtos/feirinha/milho01.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/milho02.jpg'),
     },
     {
+        nome: 'Morango',  
+        cor: 'vermelho', 
         imagem: require('~/assets/image/produtos/feirinha/morango01.jpg'),
     },
     {
+        nome: 'Rabanete', 
+        cor: 'vermelho',  
         imagem: require('~/assets/image/produtos/feirinha/rabanete01.jpg'),
     },
     {
+        nome: 'Tomate',   
+        cor: 'vermelho',
         imagem: require('~/assets/image/produtos/feirinha/tomate01.jpg'),
     },
     {
+        nome: 'Uva',  
+        cor: 'roxo', 
         imagem: require('~/assets/image/produtos/feirinha/uva01.jpg'),
     },
     {

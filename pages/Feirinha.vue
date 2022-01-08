@@ -2,7 +2,7 @@
   <section class="feirinha" col lg="9">
     <h3 class="box-content text-center">FEIRINHA</h3>
     <PriceSet>
-      <p class="box-content">
+      <div class="box-content">
         <IconArrowRight /><b
           >Valor para 06 itens: R$70,00 / Valor para 12 itens: R$130,00.</b
         ><br />
@@ -12,50 +12,22 @@
           class="click-text text-center"
           >Clique no nome da fruta abaixo para ver em detalhe.</span
         ><br />
-        <span class="verde m-3" @click="openLightboxOnSlide(0)">Abacate</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(1)">Abacaxi</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(2)">Abóbora</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(3)">Alface</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(5)">Banana</span>
-        <span class="marrom m-3" @click="openLightboxOnSlide(7)">Batata</span>
-        <span class="roxo m-3" @click="openLightboxOnSlide(8)">Berinjela</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(9)">Beterraba</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(10)">Brócolis</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(11)">Cacau</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(13)">Caju</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(14)"
-          >Cana de Açúcar</span
-        >
-        <span class="amarelo m-3" @click="openLightboxOnSlide(15)"
-          >Carambola</span
-        >
-        <span class="laranja m-3" @click="openLightboxOnSlide(16)"
-          >Cenoura</span
-        >
-        <span class="marrom m-3" @click="openLightboxOnSlide(17)">Coco</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(19)">Kiwi</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(20)"
-          >Laranja</span
-        >
-        <span class="vermelho m-3" @click="openLightboxOnSlide(21)">Maçã</span>
-        <span class="laranja m-3" @click="openLightboxOnSlide(22)">Mamão</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(23)">Manga</span>
-        <span class="verde m-3" @click="openLightboxOnSlide(24)">Melancia</span>
-        <span class="amarelo m-3" @click="openLightboxOnSlide(25)">Milho</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(27)">Morango</span>
-        <span class="vermelho m-3" @click="openLightboxOnSlide(28)"
-          >Rabanete</span
-        >
-        <span class="vermelho m-3" @click="openLightboxOnSlide(29)"
-          >Tomate</span
-        >
-        <span class="roxo m-3" @click="openLightboxOnSlide(30)">Uva</span>
+        <div class="fruits-list"> 
+          <span
+            v-for="fruit in fruitsNames"
+            :key="fruit.indexOrig"
+            @click="openLightboxOnSlide(fruit.indexOrig)"
+            :class="fruit.cor"
+            class="m-1"
+            >{{ fruit.nome }}</span>
+        </div>
+
         <FsLightbox
           :toggler="toggler"
           :sourceIndex="sourceIndex"
           :sources="images"
         />
-      </p>
+      </div>
     </PriceSet>
     <CatalogMasonry :produtos="feirinha" />
     <PriceSet>
@@ -104,12 +76,19 @@ export default {
     images() {
       return fruits.map((fruit) => fruit.imagem);
     },
+    fruitsNames() {
+      const fruitsWithIndex = fruits.map((fruit, index) => {
+        return { ...fruit, indexOrig: index };
+      });
+      return fruitsWithIndex.filter((fruit) => fruit.nome);
+    },
   },
   methods: {
     openLightboxOnSlide(number) {
       this.sourceIndex = number;
       this.toggler = !this.toggler;
     },
+    getIndexOfFruit() {},
   },
 };
 </script>
@@ -117,6 +96,13 @@ export default {
 <style scoped>
 .feirinha h5 {
   margin-bottom: 10px;
+}
+.fruits-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0 !important;
 }
 .amarelo,
 .laranja,
