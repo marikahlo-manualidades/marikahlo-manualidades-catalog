@@ -10,7 +10,7 @@
         mesclando entre frutas, verduras e legumes.<br />
         <BIconArrowDownCircleFill class="icon-down" animation="throb" /><span
           class="click-text text-center"
-          >Clique no nome da fruta abaixo para ver em detalhe.</span
+          >Clique no nome da hortaliça abaixo para ver em detalhe.</span
         ><br />
         <div class="fruits-list"> 
           <span
