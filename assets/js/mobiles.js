@@ -26,4 +26,7 @@ export const guirlandas = [
     {
         imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema03.jpg'),
     },
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema04.jpg'),
+    },
 ] 
