@@ -10,11 +10,9 @@
     </PriceSet>
     <CatalogMasonry :produtos="portaTalheres" />
     <PriceSet>
-      <h5 class="box-content text-center">GUIRLANDAS</h5>
-      
+      <h5 class="box-content text-center">GUIRLANDAS NATALINAS</h5>
     </PriceSet>
-    <CatalogMasonry :produtos="guirlanda" tipo="cards"/>
-    
+    <CatalogMasonry :produtos="guirlanda" tipo="cards" />
   </section>
 </template>
 
@@ -35,5 +33,4 @@ export default {
 section > div:nth-child(4) > h5 {
   margin-bottom: 10px;
 }
-
 </style>

@@ -15,3 +15,15 @@ export const mobiles = [
     },
 
 ]
+
+export const guirlandas = [
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema02.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema03.jpg'),
+    },
+] 

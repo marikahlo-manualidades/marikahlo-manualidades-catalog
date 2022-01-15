@@ -11,7 +11,7 @@
       <li><NuxtLink @click.native="hideMenu" to="/feirinha">Feirinha</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/chaveiros">Chaveiros</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/kitfesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/mobiles">Móbiles</NuxtLink></li>
+      <li><NuxtLink @click.native="hideMenu" to="/mobiles">Guirlandas e Móbiles</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
