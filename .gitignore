@@ -89,5 +89,7 @@ sw.*
 # Vim swap files
 *.swp
 
+.vs
+
 mari-kahlo.docx
 marikahlo-linktree.txt
