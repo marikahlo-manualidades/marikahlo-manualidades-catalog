@@ -16,7 +16,7 @@ export const mobiles = [
 
 ]
 
-export const guirlandas = [
+export const guirlandaTematica = [
     {
         imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema01.jpg'),
     },
@@ -28,6 +28,18 @@ export const guirlandas = [
     },
     {
         imagem: require('~/assets/image/produtos/mobiles/guirlanda-tema03.jpg'),
+    },
+
+] 
+export const guirlandaBoasVindas = [
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-boas-vindas01.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-boas-vindas02.jpg'),
+    },
+    {
+        imagem: require('~/assets/image/produtos/mobiles/guirlanda-boas-vindas03.jpg'),
     },
 
 ] 
