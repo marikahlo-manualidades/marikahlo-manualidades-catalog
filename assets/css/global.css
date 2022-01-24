@@ -24,11 +24,11 @@ section {
   }
 }
 
-.page-enter-active,
-.page-leave-active {
-  transition: all 0.3s;
+.page-enter-active, .page-leave-active {
+  transition: all .3s ease;
 }
-.page-enter,
-.page-leave-to {
+.page-enter, .page-leave-to {
+  transform: translateY(50px);
   opacity: 0;
 }
+

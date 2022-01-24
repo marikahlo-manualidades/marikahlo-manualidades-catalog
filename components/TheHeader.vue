@@ -18,7 +18,7 @@
           :style="scY < 300 ? 'top: 38px;' : 'top: 22px;'"
         ></b-icon>
       </transition>
-      <transition name="fade">
+      <transition name="slide">
         <NavBarMobile v-if="showNav" @hide-menu="showNav = false" :scY="scY" />
       </transition>
 
@@ -150,4 +150,12 @@ svg:hover {
 .span-fade-leave-to {
   opacity: 0;
 }
+
+.slide-enter-active, .slide-leave-active {
+  transition: all 0.2s ease;
+}
+.slide-enter, .slide-leave-to {
+  transform: translateX(-100%);
+}
+
 </style>
