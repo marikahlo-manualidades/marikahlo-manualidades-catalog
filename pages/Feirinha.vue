@@ -91,6 +91,7 @@ export default {
 .vermelho {
   font-size: 1.25rem;
   padding: 0 0.5rem;
+  border-radius: 3px;
 }
 .amarelo:hover,
 .laranja:hover,
@@ -107,22 +108,52 @@ export default {
   font-size: 1.1rem;
 }
 .verde {
+  border: 1px solid #00910044; 
   color: #009100;
 }
+.verde:hover {
+  background-color: #009100;
+  color: #fff
+}
 .laranja {
+  border: 1px solid #ff642b44; 
   color: #ff642b;
 }
+.laranja:hover {
+  background-color: #ff642b;
+  color: #fff
+}
 .roxo {
+  border: 1px solid #66339944; 
   color: #663399;
 }
+.roxo:hover {
+  background-color: #663399;
+  color: #fff
+}
 .vermelho {
+  border: 1px solid #ff000044; 
   color: #ff0000;
 }
+.vermelho:hover {
+  background-color: #ff0000;
+  color: #fff
+}
 .amarelo {
+  border: 1px solid #f1ad0155; 
   color: #f1ad01;
 }
+.amarelo:hover {
+  background-color: #f1ad01;
+  color: #fff
+}
 .marrom {
+  border: 1px solid #b67a5e44; 
   color: #b67a5e;
+}
+.marrom:hover {
+  background-color: #b67a5e;
+  color: #fff
 }
 .bi-arrow-down-circle-fill {
   color: #a92d37;
