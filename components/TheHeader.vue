@@ -15,11 +15,7 @@
           icon="list"
           font-scale="2.5"
           @click="showNavChange"
-          :style="
-            scY < 300
-              ? 'top: 38px;'
-              : 'top: 22px;'
-          "
+          :style="scY < 300 ? 'top: 38px;' : 'top: 22px;'"
         ></b-icon>
       </transition>
       <transition name="fade">
