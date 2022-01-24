@@ -1,5 +1,7 @@
-export const feirinha = [
-
+export const feirinha = {
+    valor: "Valor para 06 itens: R$70,00 / Valor para 12 itens: R$130,00.",
+    descricao:["Você pode escolher 06 ou 12 itens da quitanda, mesclando entre frutas, verduras e legumes."],
+    imagens: [
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha01.jpg'),
     },
@@ -51,7 +53,7 @@ export const feirinha = [
     {
         imagem: require('~/assets/image/produtos/feirinha/feirinha17.jpg'),
     },
-]
+]}
 
 export const fruits = [
     {
@@ -204,7 +206,9 @@ export const fruits = [
     },
 ]
 
-export const itensFeirinha = [
+export const itensFeirinha = {
+    titulo: "ITENS FEIRINHA",
+    imagens: [
     {
         titulo: 'Kit Ovos',
         descricao: 'Bandeja com 4 ovos + 1 ovo estalado',
@@ -217,10 +221,13 @@ export const itensFeirinha = [
         preco: 'R$20,00',
         imagem: require('~/assets/image/produtos/feirinha/saco-batatas01.jpg'),
     },
-]
+]}
 
-export const ecobag = [
-
+export const ecobags = {
+    titulo: "ECOBAGS",
+    valor: "Valor: R$15,00 (L=24cm x A=30cm) / Valor: R$20,00 (L=30cm x A=35cm)",
+    descricao: ["Pintada à Mão, Em algodão cru, com alça colorida (vermelha/verde/laranja) para guardar as frutas/verduras/legumes."],
+    imagens: [
     {
         // titulo: 'Ecobag É Dia de Feirinha',
         // descricao: 'Pintada à Mão, Em algodão cru, com alça colorida (vermelha ou verde) para guardar as frutas/verduras/legumes. Tamanho: Largura=24cm x Altura=30cm.',
@@ -240,4 +247,4 @@ export const ecobag = [
         imagem: require('~/assets/image/produtos/feirinha/ecobag04.jpg'),
     },
 
-]
+]}

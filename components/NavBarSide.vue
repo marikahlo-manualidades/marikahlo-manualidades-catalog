@@ -8,7 +8,7 @@
       <li><NuxtLink to="/feirinha" >Feirinha</NuxtLink></li>
       <li><NuxtLink to="/chaveiros">Chaveiros</NuxtLink></li>
       <li><NuxtLink to="/kitfesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink to="/mobiles">Guirlandas e Móbiles</NuxtLink></li>
+      <li><NuxtLink to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li>
       <li><NuxtLink to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
       <li><NuxtLink to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
       <li><NuxtLink to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>

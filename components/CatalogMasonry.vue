@@ -1,5 +1,5 @@
 <template>
-  <masonry class="masonry" :cols="{ default: 3, 992: 2, 576: 1 }" :gutter="30">
+  <masonry class="masonry mt-2" :cols="{ default: 3, 992: 2, 576: 1 }" :gutter="30">
     <div v-for="(produto, index) in produtos" :key="index">
       <CardFSLightBox v-if="produto.titulo" :produto="produto" />
       <VideoWrapper

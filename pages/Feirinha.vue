@@ -1,25 +1,21 @@
 <template>
   <section class="feirinha" col lg="9">
-    <h3 class="box-content text-center">FEIRINHA</h3>
-    <PriceSet>
-      <div class="box-content">
-        <IconArrowRight /><b
-          >Valor para 06 itens: R$70,00 / Valor para 12 itens: R$130,00.</b
-        ><br />
-        <IconArrowRight />Você pode escolher 06 ou 12 itens da quitanda,
-        mesclando entre frutas, verduras e legumes.<br />
+    <BoxContent compType="h3" class="text-center">FEIRINHA</BoxContent>
+    <ProductInfo :produto="feirinha">
+      <template #frutas>
         <BIconArrowDownCircleFill class="icon-down" animation="throb" /><span
-          class="click-text text-center"
+          class="hortalica-text text-center"
           >Clique no nome da hortaliça abaixo para ver em detalhe.</span
         ><br />
-        <div class="fruits-list"> 
+        <div class="fruits-list">
           <span
             v-for="fruit in fruitsNames"
             :key="fruit.indexOrig"
             @click="openLightboxOnSlide(fruit.indexOrig)"
             :class="fruit.cor"
             class="m-1"
-            >{{ fruit.nome }}</span>
+            >{{ fruit.nome }}</span
+          >
         </div>
 
         <FsLightbox
@@ -27,25 +23,10 @@
           :sourceIndex="sourceIndex"
           :sources="images"
         />
-      </div>
-    </PriceSet>
-    <CatalogMasonry :produtos="feirinha" />
-    <PriceSet>
-      <h5 class="box-content text-center">ITENS FEIRINHA</h5>
-    </PriceSet>
-    <CatalogMasonry :produtos="itensFeirinha" tipo="cards" />
-    <PriceSet>
-      <h5 class="box-content text-center">ECOBAGS</h5>
-      <p class="box-content">
-        <IconArrowRight />
-        Tamanho: Largura=24cm x Altura=30cm. <b>Valor: R$15,00</b><br />
-        <IconArrowRight />
-        Tamanho: Largura=30cm x Altura=35cm. <b>Valor: R$20,00</b><br />
-        <IconArrowRight />Pintada à Mão, Em algodão cru, com alça colorida
-        (vermelha/verde/laranja) para guardar as frutas/verduras/legumes.
-      </p>
-    </PriceSet>
-    <CatalogMasonry :produtos="ecobag" />
+      </template>
+    </ProductInfo>
+    <ProductInfo :produto="itensFeirinha" tipo="cards" />
+    <ProductInfo :produto="ecobags" />
   </section>
 </template>
 
@@ -53,20 +34,21 @@
 import {
   feirinha,
   itensFeirinha,
-  ecobag,
+  ecobags,
   fruits,
 } from "@/assets/js/feirinha.js";
 import FsLightbox from "fslightbox-vue";
 import { BIcon, BIconArrowDownCircleFill } from "bootstrap-vue";
+import ProductInfo from "../components/ProductInfo.vue";
 
 export default {
   name: "Feirinha",
-  components: { FsLightbox, BIcon, BIconArrowDownCircleFill },
+  components: { FsLightbox, BIcon, BIconArrowDownCircleFill, ProductInfo },
   data() {
     return {
-      feirinha: feirinha,
-      ecobag: ecobag,
-      itensFeirinha: itensFeirinha,
+      feirinha,
+      ecobags,
+      itensFeirinha,
       toggler: false,
       sourceIndex: 0,
       sources: this.images,
@@ -94,9 +76,6 @@ export default {
 </script>
 
 <style scoped>
-.feirinha h5 {
-  margin-bottom: 10px;
-}
 .fruits-list {
   display: flex;
   justify-content: center;
@@ -122,7 +101,7 @@ export default {
   cursor: pointer;
   background-color: rgb(240, 240, 240);
 }
-.click-text {
+.hortalica-text {
   font-weight: bolder;
   text-decoration: underline;
   font-size: 1.1rem;
