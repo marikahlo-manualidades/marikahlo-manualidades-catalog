@@ -225,26 +225,17 @@ export const itensFeirinha = {
 
 export const ecobags = {
     titulo: "ECOBAGS",
-    valor: "Valor: R$15,00 (L=24cm x A=30cm) / Valor: R$20,00 (L=30cm x A=35cm)",
+    valor: "Valor: R$20,00 (L=30cm x A=35cm)",
     descricao: ["Pintada à Mão, Em algodão cru, com alça colorida (vermelha/verde/laranja) para guardar as frutas/verduras/legumes."],
     imagens: [
     {
-        // titulo: 'Ecobag É Dia de Feirinha',
-        // descricao: 'Pintada à Mão, Em algodão cru, com alça colorida (vermelha ou verde) para guardar as frutas/verduras/legumes. Tamanho: Largura=24cm x Altura=30cm.',
-        // preco: 'R$15,00',
         imagem: require('~/assets/image/produtos/feirinha/ecobag01.jpg'),
     },
     {
-        // titulo: 'Ecobag É Dia de Feira',
-        // descricao: 'Pintada à Mão, Em Algodão Cru, Tamanho: Largura=30cm x Altura=35cm',
-        // preco: 'R$20,00',
         imagem: require('~/assets/image/produtos/feirinha/ecobag02.jpg'),
     },
     {
         imagem: require('~/assets/image/produtos/feirinha/ecobag03.jpg'),
-    },
-    {
-        imagem: require('~/assets/image/produtos/feirinha/ecobag04.jpg'),
     },
 
 ]}
