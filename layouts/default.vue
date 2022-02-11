@@ -90,6 +90,7 @@ export default {
 }
 
 .fade-enter-active, .fade-leave-active {
+  -webkit-transition: opacity .5s ease;
   transition: opacity .5s ease;
 }
 .fade-enter, .fade-leave-to {

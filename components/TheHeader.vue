@@ -128,10 +128,12 @@ svg:hover {
 
 .logo-wrapper img {
   filter: drop-shadow(0px 0px 3px rgb(0, 0, 0, 0.9));
+  -webkit-filter: drop-shadow(0px 0px 3px rgb(0, 0, 0, 0.9));
 }
 
 .fade-enter-active,
 .fade-leave-active {
+  -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
 .fade-enter,
@@ -140,10 +142,12 @@ svg:hover {
 }
 
 .span-fade-enter-active {
+  -webkit-transition: opacity 0.2s ease 0.3s;
   transition: opacity 0.2s ease;
   transition-delay: 0.3s;
 }
 .span-fade-leave-active {
+  -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .span-fade-enter,
@@ -152,7 +156,8 @@ svg:hover {
 }
 
 .slide-enter-active, .slide-leave-active {
-  transition: all 0.2s ease;
+  -webkit-transition: transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 .slide-enter, .slide-leave-to {
   transform: translateX(-100%);

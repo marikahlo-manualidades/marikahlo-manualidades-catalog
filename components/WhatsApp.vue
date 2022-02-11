@@ -48,6 +48,7 @@ export default {
 <style scoped>
 .whats-btn {
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.9));
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.9));
   animation: pulse 1s infinite;
   animation-timing-function: linear;
   margin-left: 8px;

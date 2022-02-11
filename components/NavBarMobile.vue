@@ -9,7 +9,6 @@
       <li><NuxtLink @click.native="hideMenu" to="/">Início</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/calendarios">Calendários</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/feirinha">Feirinha</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/chaveiros">Chaveiros</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/kitfesta">Kit Festa</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>

@@ -25,7 +25,8 @@ section {
 }
 
 .page-enter-active, .page-leave-active {
-  transition: all .3s ease;
+  -webkit-transition: transform 0.3s ease, opacity 0.3s ease;
+  transition: transform 0.3s ease, opacity 0.3s ease;
 }
 .page-enter, .page-leave-to {
   transform: translateY(50px);

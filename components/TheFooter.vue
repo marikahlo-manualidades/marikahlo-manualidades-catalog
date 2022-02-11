@@ -31,6 +31,7 @@ footer span {
 }
 footer img {
   height: 2.5rem;
-  filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.9));
+  filter: drop-shadow(0px 0px 3px rgb(0, 0, 0, 0.9));
+  -webkit-filter: drop-shadow(0px 0px 3px rgb(0, 0, 0, 0.9));
 }
 </style>
