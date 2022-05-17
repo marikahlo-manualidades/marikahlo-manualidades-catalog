@@ -36,6 +36,7 @@ export default {
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
   animation: pulse 1s infinite;
   -webkit-filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));

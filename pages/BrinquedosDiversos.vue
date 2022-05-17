@@ -13,8 +13,6 @@
     <ProductInfo :produto="almofadaafrica" />
     <ProductInfo :produto="portacopos" />
     <ProductInfo :produto="sanduiche" />
-    <ProductInfo :produto="panela" />
-    <ProductInfo :produto="galinhapintadinha" />
   </section>
 </template>
 
@@ -25,11 +23,9 @@ import {
   jogovelha,
   jogoencaixe,
   peixinhos,
-  galinhapintadinha,
   almofadaafrica,
   abaco,
   portacopos,
-  panela,
   sanduiche,
   bolinhas,
 } from "@/assets/js/brinquedos-diversos.js";
@@ -43,11 +39,9 @@ export default {
       jogovelha,
       jogoencaixe,
       peixinhos,
-      galinhapintadinha,
       almofadaafrica,
       abaco,
       portacopos,
-      panela,
       sanduiche,
       bolinhas,
     };

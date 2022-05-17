@@ -1,6 +1,6 @@
 export const dedoches = {
   titulo: "DEDOCHES",
-  valor: "Valor: R$25,00 => 4 unidades",
+  valor: "Valor: R$32,00 => 4 unidades",
   imagens: [
     {
       imagem: require("~/assets/image/produtos/brinquedos-diversos/dedoche01.jpg")
@@ -83,22 +83,6 @@ export const peixinhos = {
     }
   ]
 };
-export const galinhapintadinha = {
-  titulo: "TURMA DA GALINHA PINTADINHA",
-  valor: "Valor: R$120,00",
-  descricao: ["Galinha Pintadinha, Galo Carijó e Pintinho Amarelinho"],
-  imagens: [
-    {
-      imagem: require("~/assets/image/produtos/brinquedos-diversos/galinhapintadinha01.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/brinquedos-diversos/galinhapintadinha02.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/brinquedos-diversos/galinhapintadinha03.jpg")
-    }
-  ]
-};
 export const almofadaafrica = {
   titulo: "ALMOFADA ÁFRICA LETRA",
   valor: "Valor: R$50,00",
@@ -122,7 +106,7 @@ export const abaco = {
 
 export const portacopos = {
   titulo: "PORTA COPOS",
-  valor: "Valor: R$25,00",
+  valor: "Valor: R$30,00",
   descricao: [
     "06 unidades - Frutas: Laranja, Melancia, Kiwi, Limão, Morango e Maçã"
   ],
@@ -132,20 +116,6 @@ export const portacopos = {
     },
     {
       imagem: require("~/assets/image/produtos/brinquedos-diversos/portacopos02.jpg")
-    }
-  ]
-};
-
-export const panela = {
-  titulo: "PANELA",
-  valor: "Valor: R$25,00",
-  descricao: ["01 Panela Com Cabo e Tampa"],
-  imagens: [
-    {
-      imagem: require("~/assets/image/produtos/brinquedos-diversos/panela01.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/brinquedos-diversos/panela02.jpg")
     }
   ]
 };
