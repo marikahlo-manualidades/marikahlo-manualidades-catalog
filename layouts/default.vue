@@ -81,6 +81,7 @@ export default {
   bottom: 0;
   margin-left: auto; 
   margin-right: 10px;
+  cursor: pointer;
 }
 .bi-arrow-up-circle-fill {
   color: #a92d37;
