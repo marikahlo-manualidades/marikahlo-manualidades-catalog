@@ -37,9 +37,9 @@ export default {
   color: #fff;
   border-radius: 20px;
   -webkit-border-radius: 20px;
-  animation: pulse 1s infinite;
-  -webkit-filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));
   filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));
+  -webkit-filter: drop-shadow(2px 2px 2px rgb(0, 0, 0, 0.8));
+  animation: pulse 1s infinite;
 }
 @keyframes pulse {
   0% {

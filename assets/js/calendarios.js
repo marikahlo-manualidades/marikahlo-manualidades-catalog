@@ -71,6 +71,12 @@ export const calendarios = {
     },
     {
       imagem: require("~/assets/image/produtos/calendarios/calendario22.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario23.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario24.jpg")
     }
   ]
 };
