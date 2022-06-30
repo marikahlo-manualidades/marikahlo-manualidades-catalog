@@ -7,6 +7,30 @@ export const calendarios = {
   ],
   imagens: [
     {
+      imagem: require("~/assets/image/produtos/calendarios/calendario23.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario24.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario19.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario20.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario18.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario21.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario22.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario14.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/calendarios/calendario01.jpg")
     },
     {
@@ -31,22 +55,16 @@ export const calendarios = {
       imagem: require("~/assets/image/produtos/calendarios/calendario08.jpg")
     },
     {
-      imagem: require("~/assets/image/produtos/calendarios/calendario09.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario10.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario11.jpg")
-    },
-    {
       imagem: require("~/assets/image/produtos/calendarios/calendario12.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/calendarios/calendario13.jpg")
     },
     {
-      imagem: require("~/assets/image/produtos/calendarios/calendario14.jpg")
+      imagem: require("~/assets/image/produtos/calendarios/calendario09.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/calendarios/calendario11.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/calendarios/calendario15.jpg")
@@ -58,25 +76,7 @@ export const calendarios = {
       imagem: require("~/assets/image/produtos/calendarios/calendario17.jpg")
     },
     {
-      imagem: require("~/assets/image/produtos/calendarios/calendario18.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario19.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario20.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario21.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario22.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario23.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/calendarios/calendario24.jpg")
+      imagem: require("~/assets/image/produtos/calendarios/calendario10.jpg")
     }
   ]
 };
