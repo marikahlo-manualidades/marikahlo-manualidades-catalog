@@ -6,6 +6,7 @@
       <li><NuxtLink to="/">Início</NuxtLink></li>
       <li><NuxtLink to="/calendarios">Calendários</NuxtLink></li>
       <li><NuxtLink to="/feirinha" >Feirinha</NuxtLink></li>
+      <li><NuxtLink to="/quadrosrotina">Quadros de Rotina</NuxtLink></li>
       <li><NuxtLink to="/kitfesta">Kit Festa</NuxtLink></li>
       <li><NuxtLink to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li>
       <li><NuxtLink to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
