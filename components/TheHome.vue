@@ -16,7 +16,7 @@
     <b-list-group>
       <ListItem>
         No momento não temos produtos a pronta entrega. Seu pedido pode levar
-        até 20 dias para ficar pronto + o prazo do frete, exceto o quadro de rotina, que tem prazo de no mínimo 30 dias, caso você não resida
+        até 20 dias para ficar pronto + o prazo do frete, caso você não resida
         em Curitiba e Região Metropolitana de Curitiba.
       </ListItem>
       <ListItem>

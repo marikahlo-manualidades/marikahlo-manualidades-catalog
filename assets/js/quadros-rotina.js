@@ -4,7 +4,8 @@ export const quadrosRotina = {
       "Contém os 7 dias da semana, 4 tempos do dia e 21 plaquinhas de atividades (que serão confeccionadas conforme escolha do cliente).",
       "Acima desse número, terá custo adicional por plaquinha",
       "Vem com um saquinho para guardar o material",
-      "Dimensões: 30cm de altura x 50cm de largura"
+      "Dimensões: 30cm de altura x 50cm de largura",
+      "Prazo de entrega de no mínimo 30 dias."
     ],
     imagens: [
       {
