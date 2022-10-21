@@ -9,6 +9,72 @@ export const quadrosRotina = {
   ],
   imagens: [
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/tomar-cafe01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/almocar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/jantar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/escovar-dentes01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/tomar-agua01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/tomar-leite01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/brincar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/brincar02.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/guardar-brinquedos01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/estudar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/escola01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/escola02.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/dormir01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/ler-livro01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/ir-ao-banheiro01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/frutinhas01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/lanchar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/passear01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/assistir-tv01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/hora-do-celular01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/banho01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/omega01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina01.jpg")
     },
     {
@@ -34,69 +100,6 @@ export const quadrosRotina = {
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina09.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina10.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina11.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina12.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina13.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina14.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina15.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina16.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina17.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina18.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina19.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina20.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina21.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina22.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina23.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina24.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina25.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina26.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina27.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina28.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina29.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina30.jpg")
     }
   ]
 };
