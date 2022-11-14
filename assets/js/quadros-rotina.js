@@ -18,6 +18,15 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/estudar01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/natacao01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/judo01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/dia-avos01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/tomar-agua01.jpg")
     },
     {
@@ -30,6 +39,9 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/brincar02.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/brincar03.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/guardar-brinquedos01.jpg")
     },
     {
@@ -37,6 +49,9 @@ export const quadrosRotina = {
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/almocar01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/sobremesa01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/escola01.jpg")
@@ -57,6 +72,12 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/hora-do-celular01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/joguinho01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/circo01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/ir-ao-banheiro01.jpg")
     },
     {
@@ -66,6 +87,9 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/assistir-tv01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/futebol01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/jantar01.jpg")
     },
     {
@@ -73,6 +97,9 @@ export const quadrosRotina = {
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/dormir01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina10.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina01.jpg")
