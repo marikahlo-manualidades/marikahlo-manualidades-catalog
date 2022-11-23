@@ -31,9 +31,6 @@ export const toalhinhas = {
       },
       {
         imagem: require("~/assets/image/produtos/toalhinhas/toalhinha09.jpg")
-      },
-      {
-        imagem: require("~/assets/image/produtos/toalhinhas/toalhinha10.jpg")
       }
     ]
   };
