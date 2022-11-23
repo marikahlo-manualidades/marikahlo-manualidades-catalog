@@ -12,6 +12,8 @@
       <li><NuxtLink to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
       <li><NuxtLink to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
       <li><NuxtLink to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
+      <li><NuxtLink to="/patuadasorte">Patuá da Sorte</NuxtLink></li>
+      <li><NuxtLink to="/toalhinhas">Toalhinhas</NuxtLink></li>
     </b-nav>
   </div>
 </template>
