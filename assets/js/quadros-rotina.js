@@ -9,16 +9,28 @@ export const quadrosRotina = {
   ],
   imagens: [
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/arrumar-cama01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/tomar-cafe01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/escovar-dentes01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/passar-fio-dental01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/pentear-os-cabelos01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/estudar01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/natacao01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/natacao02.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/judo01.jpg")
@@ -63,16 +75,16 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/lanchar01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/artes01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/ler-livro01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/ler-livro02.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/passear01.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/hora-do-celular01.jpg")
-    },
-    {
-      imagem: require("~/assets/image/produtos/quadros-rotina/joguinho01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/circo01.jpg")
@@ -84,16 +96,31 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/frutinhas01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/hora-do-celular01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/tv-ou-jogos01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/joguinho01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/assistir-tv01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/futebol01.jpg")
     },
     {
+      imagem: require("~/assets/image/produtos/quadros-rotina/homeopatia01.jpg")
+    },
+    {
       imagem: require("~/assets/image/produtos/quadros-rotina/jantar01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/banho01.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/rezar01.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/dormir01.jpg")
@@ -120,13 +147,19 @@ export const quadrosRotina = {
       imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina06.jpg")
     },
     {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina07.jpg")
+      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina09.jpg")
     },
     {
       imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina08.jpg")
     },
     {
-      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina09.jpg")
-    }
+      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina07.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina11.jpg")
+    },
+    {
+      imagem: require("~/assets/image/produtos/quadros-rotina/quadro-rotina-pacote01.jpg")
+    }    
   ]
 };
