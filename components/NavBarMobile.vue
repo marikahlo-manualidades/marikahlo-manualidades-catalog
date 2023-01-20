@@ -10,20 +10,20 @@
       <li><NuxtLink @click.native="hideMenu" to="/calendarios">Calendários</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/feirinha">Feirinha</NuxtLink></li>
       <li><NuxtLink @click.native="hideMenu" to="/quadrosrotina">Quadros de Rotina</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/kitfesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li>
+      <!-- <li><NuxtLink @click.native="hideMenu" to="/kitfesta">Kit Festa</NuxtLink></li> -->
+      <!-- <li><NuxtLink @click.native="hideMenu" to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li> -->
       <li><NuxtLink @click.native="hideMenu" to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/patuadasorte">Patuá da Sorte</NuxtLink></li>
-      <li><NuxtLink @click.native="hideMenu" to="/toalhinhas">Toalhinhas</NuxtLink></li>
+      <!-- <li><NuxtLink @click.native="hideMenu" to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li> -->
+      <!-- <li><NuxtLink @click.native="hideMenu" to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li> -->
+      <!-- <li><NuxtLink @click.native="hideMenu" to="/patuadasorte">Patuá da Sorte</NuxtLink></li> -->
+      <li><NuxtLink @click.native="hideMenu" to="/toalhinhas">Toalhinhas Bordadas Ponto Cruz</NuxtLink></li>
     </b-nav>
     </b-nav>
   </aside>
 </template>
 
 <script>
-import { mixin as clickaway } from 'vue-clickaway';
+import { mixin as clickaway } from 'vue-clickaway'; 
 export default {
   name: "NavBarMobile",
   props: ['scY'],

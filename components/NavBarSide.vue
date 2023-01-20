@@ -7,13 +7,13 @@
       <li><NuxtLink to="/calendarios">Calendários</NuxtLink></li>
       <li><NuxtLink to="/feirinha" >Feirinha</NuxtLink></li>
       <li><NuxtLink to="/quadrosrotina">Quadros de Rotina</NuxtLink></li>
-      <li><NuxtLink to="/kitfesta">Kit Festa</NuxtLink></li>
-      <li><NuxtLink to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li>
+      <!-- <li><NuxtLink to="/kitfesta">Kit Festa</NuxtLink></li> -->
+      <!-- <li><NuxtLink to="/guirlandasmobiles">Guirlandas e Móbiles</NuxtLink></li> -->
       <li><NuxtLink to="/livrossensoriais">Livros Sensoriais</NuxtLink></li>
-      <li><NuxtLink to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li>
-      <li><NuxtLink to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li>
-      <li><NuxtLink to="/patuadasorte">Patuá da Sorte</NuxtLink></li>
-      <li><NuxtLink to="/toalhinhas">Toalhinhas</NuxtLink></li>
+      <!-- <li><NuxtLink to="/enfeitesnatalinos">Enfeites Natalinos</NuxtLink></li> -->
+      <!-- <li><NuxtLink to="/brinquedosdiversos">Brinquedos Diversos</NuxtLink></li> -->
+      <!-- <li><NuxtLink to="/patuadasorte">Patuá da Sorte</NuxtLink></li> -->
+      <li><NuxtLink to="/toalhinhas">Toalhinhas Bordadas Ponto Cruz</NuxtLink></li>
     </b-nav>
   </div>
 </template>
